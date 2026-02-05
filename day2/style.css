@@ -1,0 +1,192 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Young serif;
+    font-weight: 400; 
+    background-color:  hsl(30, 54%, 90%);
+
+}
+.recpie{
+    background-color:  hsl(30, 54%, 90%);
+    height: 1500px;
+    width: 1440px;
+    position: relative;
+}
+.container{
+    margin: 50px 400px;
+    background-color: hsl(0, 0%, 100%) ;
+    width: 700px;
+    height: 1350px;
+    
+}
+.recpie image{
+    
+}
+.recpie img{
+    width: 300 px;
+    height: 300px;
+    padding: 20px;
+}
+.recpie h1{
+    font-size: 30px;
+    padding-left: 30px;
+}
+.recpie p{
+    width: 400px;
+    padding-left: 30px;
+
+}
+.recpie .time h3{
+    color: hsl(332, 51%, 32%);
+    padding-left: 30px;
+    font-size: 20px;
+}
+.recpie ul{
+    padding-left: 40px;
+}
+.recpie .ingredients h2{
+    color:hsl(14, 45%, 36%) ;
+    font-size: 26px;
+    padding-left: 30px;
+
+}
+.recpie .instruction h2{
+    color:hsl(14, 45%, 36%)  ;
+    font-size: 26px;
+    padding-left: 30px;
+
+}
+.recpie ol{
+    padding-left: 40px;
+}
+.recpie .nutrition h2{
+    color:hsl(14, 45%, 36%)  ;
+    font-size: 26px;
+    padding-left: 30px;
+
+
+}
+.recpie .nutrition p{
+    width: 400px;
+}
+.recpie .nutrition .box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    
+
+}
+.recpie :not(:last-child).box::after{
+    content: "";
+    position: absolute;
+    width: 580px;
+    height: 1px;
+    top: 60px;
+    right: 90px;
+    background-color: rgb(64, 63, 63);
+}
+@media(max-width:767px){
+    .body
+    {
+        width: 742px;
+    }
+    .recpie{
+        width: 700px;
+        
+    }
+    .container{
+        width:500px;
+        padding: 40px;
+        height: 1420px;
+        margin: 20px 10px;
+    }
+    .container img{
+        width: 250px;
+        height: 250px;
+
+    }
+}
+.music{
+    background:linear-gradient(120deg , hsl(225, 100%,94%) ,hsl(225, 100%, 98%) );
+    height: 900px;
+    position: relative;
+}
+.music::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom:-1px;
+    background-color: aqua;
+    border-top-left-radius:50% 100% ;
+    border-top-right-radius:50% 100%;
+}
+.music .container{
+    height: 800px;
+    width: 480px;
+    
+
+}
+.music img{
+    border-top-left-radius:10px ;
+    border-top-right-radius:10px ;
+    width: 100%;
+    
+}
+.music h2{
+    color:hsl(223, 47%, 23%);
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+.music p{
+    width: 300px;
+    color:hsl(224, 23%, 55%) ;
+    padding-left:40px ;
+}
+.music .content{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    background-color:hsl(225, 100%, 98%) ;
+}
+.music .content img{
+    width: 50px;
+}
+.music .text h3{
+    padding:5px 20px 0;
+}
+.music .content .text p{
+    padding-left: -20px;
+}
+.music .content .text a{
+    color: hsl(223, 47%, 23%);
+}
+button{
+    width: 90%;
+    display: block;
+    height: 40px;
+    margin: auto;
+    border: none;
+
+    
+}
+.active{
+    background-color:hsl(245, 75%, 52%) ;  
+    border-radius: 10px;
+
+}
+@media(max-width:767px){
+
+    .music .content{
+
+    width:100% ;
+    }
+    .music .content img{
+        width:50px ;
+        height: 50px;
+    }
+}
